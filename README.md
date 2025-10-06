@@ -1,6 +1,6 @@
-# 🧑‍💻 Aditya Portfolio – Full-Stack Developer Portfolio
+# 🧑‍💻 Aditya Kale's Portfolio – Full-Stack Developer Portfolio
 
-**Aditya Portfolio** is a modern, animated, full-stack developer portfolio built with **React**, **Tailwind CSS**, and **Framer Motion**.  
+**Aditya Kale's Portfolio** is a modern, animated, full-stack developer portfolio built with **React**, **Tailwind CSS**, and **Framer Motion**.  
 It showcases projects, competitive programming profiles, and a **fully functional contact form** using **Node.js**, **Nodemailer**, and **EmailJS**. The site is **responsive**, supports **dark/light mode**, **multi-lingual functionality**, and is deployed with seamless integration on **Vercel** (frontend) and **Render** (backend).  
 
 ---
