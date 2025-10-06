@@ -1,113 +1,97 @@
-# [<img src="docs/assets/logo.png"> React Portfolio](https://ryanbalieiro.github.io/react-portfolio-template/) by Ryan Balieiro
+# 🧑‍💻 Aditya Portfolio – Full-Stack Developer Portfolio
 
-A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
+**Aditya Portfolio** is a modern, animated, full-stack developer portfolio built with **React**, **Tailwind CSS**, and **Framer Motion**.  
+It showcases projects, competitive programming profiles, and a **fully functional contact form** using **Node.js**, **Nodemailer**, and **EmailJS**. The site is **responsive**, supports **dark/light mode**, **multi-lingual functionality**, and is deployed with seamless integration on **Vercel** (frontend) and **Render** (backend).  
 
-![alt promo](docs/assets/readme-promotional-image-min.png)
+---
 
-Key features:
-- Lightweight and fully responsive.
-- Adapts perfectly to mobile screens.
-- Multi-language support included.
-- Comes with both dark and light theme options.
-- A variety of components to highlight your work experience, education, skills, portfolio, and more.
-- Uses **Vite** for packaging.
-- Emails with **EmailJS** - no backend needed!
+## 🌐 Live Demo
 
-## Live Preview
+🔗 [Visit My Portfolio](https://aditya-kale.vercel.app/)  
 
-Here's a list of live versions of the template:
+---
 
-| #     | Version             | Description                                             | URL                                                                     |
-|-------|---------------------|---------------------------------------------------------|-------------------------------------------------------------------------|
-| 🟢    | Mark Choi (default) | Latest deployment of the template here on GitHub pages. | [Preview](https://ryanbalieiro.github.io/react-portfolio-template/)     |
-| 🟣    | Emily Park          | An example of how the template can be customized.       | [Preview](https://ryansandbox.github.io/emily-park-react-portfolio/)    |
-| 🔵    | Michael Özkan       | Another example of how the template can be customized.  | [Preview](https://ryansandbox.github.io/michael-ozkan-react-portfolio/) |
+## 🚀 Features
 
-## Layout and concept
+### 🎨 UI / UX Enhancements
+- 🌙 **Dark & Light Mode Toggle** – Switch themes seamlessly for a personalized experience.  
+- 🌏 **Multi-Lingual Support** – Easily switch between languages for a global audience.  
+- 🌀 **Preloader** – Animated intro sequence before the page loads.  
+- 🎬 **Framer Motion Page Transitions** – Smooth transitions with animated black bars and page titles.  
+- 💡 **Magnet-style Buttons** – Interactive buttons with hover effects.  
 
-### 1. Base layout
-The layout uses a fixed central view with a left sidebar, adjusting perfectly across various monitor resolutions, from 4:3 to ultra-wide.
+### 💼 Projects & Showcase
+- 🖼️ **Project Carousel/Grid** – Animated display of projects with hover interactions.  
+- 🔗 **Competitive Programming Section** – Quick access to Codeforces, LeetCode, and other platforms.  
 
-![alt layout](docs/assets/readme-home-preview-min.png)
+### 📩 Contact & Communication
+- 💌 **Contact Form with EmailJS & Nodemailer** – Real-time email sending and receiving from the frontend and backend.  
+- 🛡️ **Responsive & Secure** – Fully functional form with validation and backend integration.  
 
-### 2. Desktop Screenshots
-The main view transitions smoothly when a new page is selected from the sidebar, giving a page-flipping effect. The sidebar is also toggleable, allowing the content area to expand for a larger viewing space.
+### 📱 Device Support
+- 📱 **Fully Responsive Design** – Optimized for mobile, tablet, and desktop devices.  
+- 🚀 **Deployed Live** – Frontend hosted on **Vercel**, backend on **Render**.  
 
-![alt desktop](docs/assets/readme-desktop-screenies-min.png)
+---
 
-### 3. Mobile Screenshots
-On mobile, the layout groups the portfolio sections into categories and transforms into a tabbed interface with a bottom navigation.
+## 🛠 Tech Stack
 
-![alt mobile](docs/assets/readme-mobile-screenies-min.png)
+| Layer              | Technology Used                                                                 |
+|-------------------|---------------------------------------------------------------------------------|
+| **Frontend**      | React, Tailwind CSS, Framer Motion, React Router DOM                             |
+| **Backend**       | Node.js, Express.js, Nodemailer, EmailJS                                        |
+| **Authentication**| JWT, dotenv                                                                     |
+| **Hosting**       | Frontend on Vercel, Backend on Render                                           |
+| **Email**         | EmailJS + Nodemailer                                                            |
 
-## Getting Started
+---
 
-1. Clone the repo:
-```
-git clone https://github.com/ryanbalieiro/react-portfolio-template
-```
+## 📄 Pages & Features
 
-2. Go to the project's root folder and use npm to install all required components:
-```
-npm install
-```
+### 🏠 About Page
+- Hero section with introduction text, smooth scrolling, and CTA buttons.  
 
-3. Launch the project in developer mode:
-```
-npm run dev
-```
+### 💼 Projects
+- Displayed in a carousel/grid format with animations and hover effects.  
 
-## Customization Tutorial
+### 🏆 Achievements Folder
+- Links to Codeforces, LeetCode, and other platforms.  
 
-Follow this step-by-step guide to customize the template with your own content and styles. You can either read the documentation or watch the interactive video tutorials:
+### 📞 Contact
+- Functional email form powered by **EmailJS** and **Nodemailer**.  
+- Sends and receives emails in real-time.  
 
-| #    | Title                       | Docs                                                                    | Video Tutorial                                                           |
-|------|-----------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| 1    | Setting up the project      | [See Docs](./docs/tutorials/TUTORIAL_01_SETTING_UP_THE_PROJECT.md)      | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=0m00s)  | 
-| 2    | Configuring settings.json   | [See Docs](./docs/tutorials/TUTORIAL_02_CONFIGURING_SETTINGS_JSON.md)   | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=1m40s)  |  
-| 3    | Titles and Colors           | [See Docs](./docs/tutorials/TUTORIAL_03_TITLES_AND_COLORS.md)           | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=5m09s)  |
-| 4    | Profile and Strings         | [See Docs](./docs/tutorials/TUTORIAL_04_PROFILE_AND_STRINGS.md)         | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=9m11s)  |
-| 5    | Categories and Sections     | [See Docs](./docs/tutorials/TUTORIAL_05_CATEGORIES_AND_SECTIONS.md)     | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=12m57s) | 
-| 6    | Section Titles              | [See Docs](./docs/tutorials/TUTORIAL_06_SECTION_TITLES.md)              | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=15m14s) |
-| 7    | Section Articles            | [See Docs](./docs/tutorials/TUTORIAL_07_SECTION_ARTICLES.md)            | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=17m01s) |
-| 8    | ArticleInlineList           | [See Docs](./docs/tutorials/TUTORIAL_08_ARTICLE_INLINE_LIST.md)         | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=18m24s) |
-| 9    | ArticleText                 | [See Docs](./docs/tutorials/TUTORIAL_09_ARTICLE_TEXTS.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=20m48s) |
-| 10   | ArticleCards                | [See Docs](./docs/tutorials/TUTORIAL_10_ARTICLE_CARDS.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=23m23s) |
-| 11   | ArticleSkills               | [See Docs](./docs/tutorials/TUTORIAL_11_ARTICLE_SKILLS.md)              | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=25m43s) |
-| 12   | ArticleTimeline             | [See Docs](./docs/tutorials/TUTORIAL_12_ARTICLE_TIMELINE.md)            | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=29m57s) |
-| 13   | ArticleStack                | [See Docs](./docs/tutorials/TUTORIAL_13_ARTICLE_STACK.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=34m40s) |
-| 14   | ArticlePortfolio            | [See Docs](./docs/tutorials/TUTORIAL_14_ARTICLE_PORTFOLIO.md)           | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=37m00s) |
-| 15   | ArticleTestimonials         | [See Docs](./docs/tutorials/TUTORIAL_15_ARTICLE_TESTIMONIALS.md)        | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=40m08s) |
-| 16   | ArticleInfoList             | [See Docs](./docs/tutorials/TUTORIAL_16_ARTICLE_INFO_LIST.md)           | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=42m05s) |
-| 17   | ArticleFacts                | [See Docs](./docs/tutorials/TUTORIAL_17_ARTICLE_FACTS.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=44m04s) |
-| 18   | ArticleThreads              | [See Docs](./docs/tutorials/TUTORIAL_18_ARTICLE_THREADS.md)             | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=45m57s) |
-| 19   | ArticleContactForm          | [See Docs](./docs/tutorials/TUTORIAL_19_ARTICLE_CONTACT_FORM.md)        | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=48m02s) |
-| 20   | Categorizing article items  | [See Docs](./docs/tutorials/TUTORIAL_20_CATEGORIZING_ARTICLE_ITEMS.md)  | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=52m58s) |
-| 21   | Deploying for production    | [See Docs](./docs/tutorials/TUTORIAL_21_DEPLOYING_FOR_PRODUCTION.md)    | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=55m34s) |
+### 🖤 Theme & Language
+- Toggle between **dark and light modes**.  
+- Switch between multiple languages seamlessly.  
 
-### Bonus Tutorials
+---
 
-Follow these additional tutorials to further enhance your portfolio with advanced features:
+## 🔗 System Architecture
 
-| #    | Title                            | Docs                                                                               | Watch                                                                      |
-|------|----------------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| 22   | Creating your own custom article | [See Docs](./docs/tutorials/TUTORIAL_22_BONUS_CREATING_YOUR_OWN_CUSTOM_ARTICLE.md) | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=1h00m12s) |
+- **Frontend** – React-based SPA with Tailwind CSS styling, Framer Motion animations, and multi-lingual support.  
+- **Backend** – Node.js + Express.js API handling contact form requests via EmailJS/Nodemailer.  
+- **Database** – MongoDB for storing messages and other dynamic content.  
 
-## About
+---
 
-This template was created by and is maintained by **[Ryan Balieiro](https://ryanbalieiro.com/)**.
+## 📷 Screenshots
 
-It's based on the **[React](https://reactjs.org/)** framework created by Jordan Walke, and the **[Bootstrap](https://getbootstrap.com/)** framework created by Mark Otto and Jacob Thorton.
+<img width="1373" height="683" alt="Screenshot 1" src="https://github.com/user-attachments/assets/70ee7864-7263-4b8c-9ecb-1b390056a6af" />  
+<img width="1394" height="679" alt="Screenshot 2" src="https://github.com/user-attachments/assets/05bef720-6c3b-4ee1-936b-a791c7cb3f4b" />  
+<img width="1414" height="684" alt="Screenshot 3" src="https://github.com/user-attachments/assets/470a3889-2402-4f0e-899f-f77509ad791e" />  
+<img width="1403" height="674" alt="Screenshot 4" src="https://github.com/user-attachments/assets/7ce3d3c2-38f7-46f5-a093-851972d46a58" />  
 
-Additional frameworks and plugins used include:
-- **Smooth Scrollbar**: A customizable scrollbar plugin.
-- **Swiper**: A powerful library for creating touch sliders.
-- **EmailJS**: A free service that allows you to send emails using JavaScript.
-- **Font Awesome**: A library of free vector icons.
-- **PrimeIcons**: A collection of premium line icons.
+---
 
-## Copyright and License
+## 🔮 Future Enhancements
 
-Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE) license, providing complete freedom for utilization. Feel free to enhance and adapt it to suit your needs.
+- 🌙 Improved **dark/light theme animations**  
+- 🧩 Additional **multi-lingual content support**  
+- 📄 **Portfolio analytics** for visitor tracking  
+- 💬 **Real-time chat/contact integration**  
 
-Oh... and if you like this template, don't forget to **give it a ⭐** :)
+---
+
+👨‍💻 **Author:** Aditya Kale
+
