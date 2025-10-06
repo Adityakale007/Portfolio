@@ -1,0 +1,276 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{ADITYA KALE!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{ADITYA KALE!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{ADITYA KALE!}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "소개",
+                "title_long_prefix": "안녕하세요...",
+                "title_long": "저는 {{아디티아 칼레}}입니다!"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 410
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Mumbai - IN",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "adityakale6805@gmail.com",
+                    "link": {"href": "mailto:adityakale6805@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "Aditya Kale",
+                    "link": {"href": "https://www.linkedin.com/in/aditya-kale-19030b293/", "tooltipString": "see_on_linkedin"},
+                    "faIcon": "fa-brands fa-linkedin"
+                },
+                {
+                    "id": 4,
+                    "label": "Adityakale007",
+                    "link": {"href": "https://github.com/Adityakale007", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "es": {"title": "{{Un poco}} sobre mí..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."},
+                "ko": {"title": "저에 {{대해 조금}}..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/svg/Portfolio_Image.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a <strong>{{full-stack developer}}</strong> with a strong foundation in both frontend and backend technologies. I specialize in building responsive and efficient web applications using <strong>ReactJS, Node.js, Express.js, Tailwind CSS, and MongoDB</strong>.</p><p>Alongside my web development expertise, I have solid programming experience in <strong>C++, Python, and Java</strong>, which enhances my problem-solving and algorithmic thinking abilities.</p><p>This diverse skill set allows me to adapt quickly to different challenges — whether it's designing intuitive user interfaces, developing secure APIs, or optimizing overall system performance.</p><p>I look forward to collaborate <strong>{{with you!}}</strong></p>"
+                        },
+                        "es": {
+                           "text": "<p>Soy un <strong>{{desarrollador full-stack}}</strong> con una base sólida tanto en tecnologías de frontend como de backend. Me especializo en crear aplicaciones web receptivas y eficientes utilizando <strong>ReactJS, Node.js, Express.js, Tailwind CSS y MongoDB</strong>.</p><p>Junto con mi experiencia en desarrollo web, tengo una sólida formación en programación con <strong>C++, Python y Java</strong>, lo que mejora mis habilidades de resolución de problemas y pensamiento algorítmico.</p><p>Este conjunto de habilidades diverso me permite adaptarme rápidamente a diferentes desafíos, ya sea diseñando interfaces de usuario intuitivas, desarrollando API seguras o optimizando el rendimiento general del sistema.</p><p>Espero poder colaborar <strong>{{contigo!}}</strong></p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis un <strong>{{développeur full-stack}}</strong> avec une solide base en technologies frontend et backend. Je me spécialise dans la création d'applications web réactives et efficaces en utilisant <strong>ReactJS, Node.js, Express.js, Tailwind CSS et MongoDB</strong>.</p><p>En plus de mon expertise en développement web, j'ai une solide expérience en programmation avec <strong>C++, Python et Java</strong>, ce qui renforce mes compétences en résolution de problèmes et en pensée algorithmique.</p><p>Cette combinaison de compétences me permet de m'adapter rapidement à différents défis — qu'il s'agisse de concevoir des interfaces utilisateur intuitives, de développer des API sécurisées ou d'optimiser les performances globales du système.</p><p>J'ai hâte de collaborer <strong>{{avec vous!}}</strong></p>"
+                        },
+                        "ko": {
+                           "text": "<p>저는 프론트엔드와 백엔드 기술 모두에 탄탄한 기반을 가진 <strong>{{풀스택 개발자}}</strong>입니다. <strong>ReactJS, Node.js, Express.js, Tailwind CSS, 그리고 MongoDB</strong>를 사용하여 반응성이 뛰어나고 효율적인 웹 애플리케이션을 구축하는 데 전문성을 가지고 있습니다.</p><p>웹 개발 전문 지식과 함께, <strong>C++, Python, 그리고 Java</strong>에 대한 탄탄한 프로그래밍 경험을 보유하고 있어 문제 해결 능력과 알고리즘적 사고력을 향상시킵니다.</p><p>이 다양한 기술 역량을 통해 직관적인 사용자 인터페이스를 설계하거나, 보안성이 높은 API를 개발하거나, 시스템 전체 성능을 최적화하는 등 다양한 도전에 빠르게 적응할 수 있습니다.</p><p>함께 협업하게 되기를 기대합니다 <strong>{{당신과 함께!}}</strong></p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+       
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "es": {"title": "Intereses {{personales}}"},
+                "fr": {"title": "Intérêts {{personnels}}"},
+                "ko": {"title": "개인 {{관심사}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Software Development}} & Problem Solving",
+                            "text": "Enjoy solving algorithmic challenges on platforms like LeetCode and CodeChef to strengthen logic and coding efficiency."
+                        },
+                        "es": {
+                            "title": "{{Desarrollo de Software}} y Resolución de Problemas",
+                            "text": "Disfruto resolviendo desafíos algorítmicos en plataformas como LeetCode y CodeChef para mejorar la lógica y la eficiencia en la programación."
+                        },
+                        "fr": {
+                            "title": "{{Développement Logiciel}} & Résolution de Problèmes",
+                            "text": "J'aime résoudre des défis algorithmiques sur des plateformes comme LeetCode et CodeChef pour renforcer la logique et l'efficacité du code."
+                        },
+                        "ko": {
+                            "title": "{{소프트웨어 개발}} 및 문제 해결",
+                            "text": "LeetCode와 CodeChef와 같은 플랫폼에서 알고리즘 문제를 풀며 논리력과 코딩 효율성을 향상시키는 것을 즐깁니다."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Web & {{Technologies}}",
+                            "text": "Passionate about experimenting with modern frameworks and improving full-stack development skills."
+                        },
+                        "es": {
+                            "title": "Web y {{Tecnologías}}",
+                            "text": "Apasionado por experimentar con frameworks modernos y mejorar habilidades de desarrollo full-stack."
+                        },
+                        "fr": {
+                            "title": "Web & {{Technologies}}",
+                            "text": "Passionné par l'expérimentation avec des frameworks modernes et l'amélioration des compétences en développement full-stack."
+                        },
+                        "ko": {
+                            "title": "웹 및 {{기술}}",
+                            "text": "최신 프레임워크를 실험하고 풀스택 개발 기술을 향상시키는 것에 열정을 가지고 있습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Investing}} & Finance",
+                            "text": "Learning the basics of stocks and personal finance."
+                        },
+                        "es": {
+                            "title": "{{Inversión}} y Finanzas",
+                            "text": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+                        },
+                        "fr": {
+                            "title": "{{Investissement}} & Finance",
+                            "text": "Apprendre les bases des actions et des finances personnelles."
+                        },
+                        "ko": {
+                            "title": "{{투자}} 및 금융",
+                            "text": "주식과 개인 재정의 기초를 배우고 있습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-code-branch",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Open Source & {{DevOps}}",
+                            "text": "Interested in contributing to open-source projects and learning deployment automation tools like Jenkins and Docker."
+                        },
+                        "es": {
+                            "title": "Código Abierto y {{DevOps}}",
+                            "text": "Interesado en contribuir a proyectos de código abierto y aprender herramientas de automatización de despliegue como Jenkins y Docker."
+                        },
+                        "fr": {
+                            "title": "Open Source & {{DevOps}}",
+                            "text": "Intéressé par la contribution à des projets open-source et l'apprentissage d'outils d'automatisation de déploiement comme Jenkins et Docker."
+                        },
+                        "ko": {
+                            "title": "오픈소스 및 {{DevOps}}",
+                            "text": "오픈소스 프로젝트에 기여하고 Jenkins, Docker와 같은 배포 자동화 도구를 배우는 데 관심이 있습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-dumbbell",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Fitness}} & Sports",
+                            "text": "Balancing academics and coding with sports and fitness activities for discipline and mental clarity."
+                        },
+                        "es": {
+                            "title": "{{Fitness}} y Deportes",
+                            "text": "Equilibrando estudios y programación con actividades deportivas y de fitness para disciplina y claridad mental."
+                        },
+                        "fr": {
+                            "title": "{{Fitness}} & Sports",
+                            "text": "Équilibrer études et codage avec des activités sportives pour la discipline et la clarté mentale."
+                        },
+                        "ko": {
+                            "title": "{{피트니스}} 및 스포츠",
+                            "text": "학업과 코딩을 스포츠 및 피트니스 활동과 균형 있게 유지하여 규율과 정신적 명확성을 유지합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "AI & {{Machine Learning}}",
+                            "text": "Exploring the potential of generative AI and data-driven technologies to build intelligent, scalable solutions."
+                        },
+                        "es": {
+                            "title": "IA y {{Aprendizaje Automático}}",
+                            "text": "Explorando el potencial de la IA generativa y las tecnologías basadas en datos para crear soluciones inteligentes y escalables."
+                        },
+                        "fr": {
+                            "title": "IA & {{Apprentissage Automatique}}",
+                            "text": "Explorer le potentiel de l'IA générative et des technologies basées sur les données pour créer des solutions intelligentes et évolutives."
+                        },
+                        "ko": {
+                            "title": "AI 및 {{머신러닝}}",
+                            "text": "지능적이고 확장 가능한 솔루션을 구축하기 위해 생성형 AI와 데이터 기반 기술의 잠재력을 탐험하기."
+                        }
+                    }
+                }                
+            ]
+        }
+        
+    ]
+}

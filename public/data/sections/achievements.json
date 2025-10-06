@@ -1,0 +1,485 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "fr": {
+                "title_short": "Réalis",
+                "title_short_nav": "Réalisations",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes {{Réalisations}}"
+            },
+            "ko": {
+                "title_short": "경력 성과",
+                "title_short_nav": "경력 성과",
+                "title_long_prefix": "다음은",
+                "title_long": "{{경력 성과}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        
+        {
+            "id": 1,
+            "component": "ArticleThread",
+            "locales": {
+                            "en": { "title": "Achievements" },
+                            "es": { "title": "Logros" },
+                            "fr": { "title": "Réalisations" },
+                            "ko": { "title": "업적" }
+                        },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": { "year": 2024, "month": 5 },
+                    "preview": {
+                        "links": [
+                            { 
+                                "href": "https://www.instagram.com/samar.nitrr/", 
+                                "tooltipString": "visit_page", 
+                                "faIcon": "fa-brands fa-instagram" 
+                            },
+                            { 
+                                "href": "https://nitrr.ac.in/", 
+                                "tooltipString": "college_website", 
+                                "faIcon": "fa-solid fa-graduation-cap" 
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Core Coordinator}} at Shaurya - Sports Committee",
+                            "province": "",
+                            "country": "Raipur, India",
+                            "institution": "MIT Academy of Engineering",
+                            "text": "Appointed as the {{Core Coordinator}} of Shaurya, the college’s biggest annual sports committee. Led event management, logistics, and cross-department coordination to organize large-scale intercollegiate tournaments promoting teamwork and sportsmanship."
+                        },
+                        "es": {
+                            "title": "{{Coordinador Principal}} en Shaurya - Comité Deportivo",
+                            "province": "",
+                            "country": "Raipur, India",
+                            "institution": "MIT Academy of Engineering",
+                            "text": "Nombrado {{Coordinador Principal}} de Shaurya, el comité deportivo anual más grande del colegio. Dirigió la gestión de eventos, la logística y la coordinación entre departamentos para organizar torneos intercolegiales de gran escala que fomentan el trabajo en equipo y el espíritu deportivo."
+                        },
+                        "fr": {
+                            "title": "{{Coordinateur Principal}} de Shaurya - Comité Sportif",
+                            "province": "",
+                            "country": "Raipur, Inde",
+                            "institution": "MIT Academy of Engineering",
+                            "text": "Nommé {{Coordinateur Principal}} de Shaurya, le plus grand comité sportif annuel de l’université. A dirigé la gestion des événements, la logistique et la coordination inter-départements pour organiser des tournois interuniversitaires à grande échelle favorisant le travail d’équipe et l’esprit sportif."
+                        },
+                        "ko": {
+                            "title": "Shaurya 스포츠 위원회 {{핵심 코디네이터}} 임명",
+                            "province": "",
+                            "country": "푸네, 인도",
+                            "institution": "MIT 공학 아카데미",
+                            "text": "대학 최대의 연례 스포츠 위원회인 Shaurya의 {{핵심 코디네이터}}로 임명되었습니다. 대규모 대학 간 토너먼트를 조직하기 위해 이벤트 관리, 물류 및 부서 간 협력을 주도하며 팀워크와 스포츠 정신을 고취시켰습니다."
+                        }
+                    }
+                },                
+
+                {
+                    "id": 2,
+                    "date": {"year": 2024, "month": 6},
+                    "preview": {
+                        "links": [
+                            {"href": "https://leetcode.com/u/ADITYA_Kale_/", "tooltipString": "open_profile", "faIcon": "fa-solid fa-user"},
+                            {"href": "https://github.com/Adityakale007", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Knight}} on LeetCode",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "LeetCode",
+                            "text": "Earned the {{Knight}} badge on LeetCode by solving 350+ problems across diverse topics, strengthening [[data structures]], [[algorithms]], and [[problem-solving]] expertise through consistent practice and contest participation."
+                        },
+                        "es": {
+                            "title": "{{Caballero}} en LeetCode",
+                            "province": "",
+                            "country": "Remoto",
+                            "institution": "LeetCode",
+                            "text": "Obtuvo la insignia de {{Caballero}} en LeetCode resolviendo más de 350 problemas en diversos temas, reforzando su experiencia en [[estructuras de datos]], [[algoritmos]] y [[resolución de problemas]] mediante práctica constante y participación en concursos."
+                        },
+                        "fr": {
+                            "title": "{{Chevalier}} sur LeetCode",
+                            "province": "",
+                            "country": "À distance",
+                            "institution": "LeetCode",
+                            "text": "A obtenu le badge {{Chevalier}} sur LeetCode en résolvant plus de 350 problèmes sur divers sujets, renforçant ses compétences en [[structures de données]], [[algorithmes]] et [[résolution de problèmes]] grâce à une pratique régulière et à la participation aux concours."
+                        },
+                        "ko": {
+                            "title": "LeetCode에서 {{Knight}} 배지 달성",
+                            "province": "",
+                            "country": "원격",
+                            "institution": "LeetCode",
+                            "text": "LeetCode에서 {{Knight}} 배지를 획득하였으며, 350개 이상의 문제를 해결하면서 [[자료 구조]], [[알고리즘]], [[문제 해결]] 역량을 꾸준한 연습과 대회 참여를 통해 강화하였습니다."
+                        }
+                    }
+                },                
+
+                {
+                    "id": 3,
+                    "date": {"year": 2024, "month": 7},
+                    "preview": {
+                        "links": [
+                            {"href": "https://codeforces.com/profile/Adityakale007", "tooltipString": "open_profile", "faIcon": "fa-solid fa-user"},
+                            {"href": "https://github.com/Adityakale007", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Apprentice}} on Codeforces",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Codeforces",
+                            "text": "Achieved the {{Apprentice}} rating on Codeforces by actively participating in competitive contests, enhancing [[problem-solving]], [[algorithm design]], and [[time efficiency]] under real-world contest pressure."
+                        },
+                        "es": {
+                            "title": "{{Aprendiz}} en Codeforces",
+                            "province": "",
+                            "country": "Remoto",
+                            "institution": "Codeforces",
+                            "text": "Alcanzó la calificación de {{Aprendiz}} en Codeforces mediante la participación activa en concursos competitivos, mejorando la [[resolución de problemas]], el [[diseño de algoritmos]] y la [[eficiencia en tiempo]] bajo la presión de concursos reales."
+                        },
+                        "fr": {
+                            "title": "{{Apprenti}} sur Codeforces",
+                            "province": "",
+                            "country": "À distance",
+                            "institution": "Codeforces",
+                            "text": "A obtenu le rang {{Apprenti}} sur Codeforces grâce à une participation active aux concours compétitifs, renforçant ses compétences en [[résolution de problèmes]], [[conception d’algorithmes]] et [[gestion du temps]] sous pression réelle."
+                        },
+                        "ko": {
+                            "title": "Codeforces에서 {{Apprentice}} 등급 달성",
+                            "province": "",
+                            "country": "원격",
+                            "institution": "Codeforces",
+                            "text": "Codeforces에서 {{Apprentice}} 등급을 달성하였으며, 꾸준한 대회 참여를 통해 [[문제 해결]], [[알고리즘 설계]], [[시간 효율성]] 능력을 실제 대회 환경에서 향상시켰습니다."
+                        }
+                    }
+                },                        
+
+                {
+                    "id": 4,
+                    "date": {"year": 2024, "month": 8},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.codechef.com/users/lio_messssi_10", "tooltipString": "open_profile", "faIcon": "fa-solid fa-user"},
+                            {"href": "https://github.com/Adityakale007", "tooltipString": "see_on_github" , "faIcon": "fa-brands fa-github"}
+
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{3★ Rating}} on CodeChef",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "CodeChef",
+                            "text": "Achieved a {{3-Star (1759)}} rating on CodeChef through consistent participation in rated contests, solving 350+ problems across competitive platforms, and demonstrating strong [[problem-solving]], [[algorithmic thinking]], and [[time-bound coding]] skills."
+                        },
+                        "es": {
+                            "title": "{{3★ Calificación}} en CodeChef",
+                            "province": "",
+                            "country": "Remoto",
+                            "institution": "CodeChef",
+                            "text": "Alcanzó una **calificación de 3 estrellas (1759)** en CodeChef mediante una participación constante en concursos evaluados, resolviendo más de 350 problemas en plataformas competitivas y demostrando sólidas habilidades de [[resolución de problemas]], [[pensamiento algorítmico]] y [[programación bajo tiempo limitado]]."
+                        },
+                        "fr": {
+                            "title": "{{Classement 3★}} sur CodeChef",
+                            "province": "",
+                            "country": "À distance",
+                            "institution": "CodeChef",
+                            "text": "A obtenu un **classement 3 étoiles (1759)** sur CodeChef grâce à une participation régulière aux concours notés, à la résolution de plus de 350 problèmes sur des plateformes compétitives, et à la démonstration de solides compétences en [[résolution de problèmes]], [[pensée algorithmique]] et [[programmation sous contrainte de temps]]."
+                        },
+                        "ko": {
+                            "title": "CodeChef에서 {{3★ 등급}} 달성",
+                            "province": "",
+                            "country": "원격",
+                            "institution": "CodeChef",
+                            "text": "CodeChef에서 **3성(1759)** 등급을 달성하였으며, 꾸준한 대회 참여와 350개 이상의 문제 해결을 통해 [[문제 해결]], [[알고리즘적 사고]], [[시간 제한 코딩]] 능력을 입증하였습니다."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" },
+                "fr": { "title": "Certifications" },
+                "ko": { "title": "인증서" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-person-military-pointing",
+                    "faIconColors": {"bg": "#8B0000", "fill": "#EEE"},
+                    "date": {"year": 2025, "month": 1},
+                    "link": {"href": "", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Core Coordinator}}",
+                            "province": "Chhattisgarh",
+                            "country": "India",
+                            "institution": "Samar Sports Committee, NIT Raipur",
+                            "text": "Served as the Core Coordinator, where I formed a team to [[plan and execute]] intercollegiate tournaments with over [[1000+ participants]], successfully improving overall event efficiency.",
+                            "list": [],
+                            "tags": ["Leadership", "Team Management", "Event Planning", "Coordination"]
+                        },
+                        "es": {
+                            "title": "{{Coordinador Principal}}",
+                            "province": "Chhattisgarh",
+                            "country": "India",
+                            "institution": "Comité Deportivo Samar, NIT Raipur",
+                            "text": "Se desempeñó como Coordinador Principal, donde para planificar y ejecutar torneos interuniversitarios con más de [[300 participantes]], mejorando con éxito la eficiencia general del evento en.",
+                            "list": [],
+                            "tags": ["Liderazgo", "Gestión de Equipos", "Planificación de Eventos", "Coordinación"]
+                        },
+                        "fr": {
+                            "title": "{{Coordinateur Principal}}",
+                            "province": "Chhattisgarh",
+                            "country": "Inde",
+                            "institution": "Comité Sportif Samar, NIT Raipur",
+                            "text": "A servi en tant que Coordinateur Principal, où j'ai pour planifier et exécuter des tournois interuniversitaires avec plus de [[1000+ participants]], améliorant avec succès l'efficacité globale de l'événement.",
+                            "list": [],
+                            "tags": ["Leadership", "Gestion d'Équipe", "Planification d'Événements", "Coordination"]
+                        },
+                        "ko": {
+                            "title": "{{핵심 코디네이터}}",
+                            "province": "차티스가르",
+                            "country": "인도",
+                            "institution": "Samar 스포츠 위원회, NIT Raipur",
+                            "text": "핵심 코디네이터로 활동하며,하여 [[1000+명 이상의 참가자]]와 함께 대학 간 토너먼트를 계획 및 실행했고, 전반적인 행사 효율성을 향상시켰습니다.",
+                            "list": [],
+                            "tags": ["리더십", "팀 관리", "이벤트 기획", "조정"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-trophy",
+                    "faIconColors": {"bg": "#1abc9c", "fill": "#ffffff"},
+                    "date": {"year": 2025, "month": 9, "day": 29},
+                    "link": {"href": "images/certificates/young_turks25_round_1_achievement.pdf", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Young Turks 25}} Round 1 Achievement",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Young Turks 25",
+                            "text": "Achieved a performance score of **97.61** in Round 1 of {{Young Turks 25}}, demonstrating strong [[problem-solving]], [[critical thinking]], and [[competitive skills]].",
+                            "list": [],
+                            "tags": ["Competitive Assessment", "Achievement", "Problem Solving", "Young Turks 25"]
+                        },
+                        "es": {
+                            "title": "Logro en la Ronda 1 de {{Young Turks 25}}",
+                            "province": "",
+                            "country": "Remoto",
+                            "institution": "Young Turks 25",
+                            "text": "Obtuvo una puntuación de **97.61** en la Ronda 1 de {{Young Turks 25}}, demostrando sólidas [[habilidades de resolución de problemas]], [[pensamiento crítico]] y [[competencias competitivas]].",
+                            "list": [],
+                            "tags": ["Evaluación Competitiva", "Logro", "Resolución de Problemas", "Young Turks 25"]
+                        },
+                        "fr": {
+                            "title": "Succès au 1er Tour de {{Young Turks 25}}",
+                            "province": "",
+                            "country": "À distance",
+                            "institution": "Young Turks 25",
+                            "text": "A obtenu un score de **97.61** lors du 1er tour de {{Young Turks 25}}, démontrant de solides compétences en [[résolution de problèmes]], [[pensée critique]] et [[compétences compétitives]].",
+                            "list": [],
+                            "tags": ["Évaluation Compétitive", "Réussite", "Résolution de Problèmes", "Young Turks 25"]
+                        },
+                        "ko": {
+                            "title": "{{Young Turks 25}} 1라운드 성취",
+                            "province": "",
+                            "country": "원격",
+                            "institution": "Young Turks 25",
+                            "text": "{{Young Turks 25}} 1라운드에서 **97.61** 점수를 획득하여 [[문제 해결]], [[비판적 사고]] 및 [[경쟁 기술]]을 입증하였습니다.",
+                            "list": [],
+                            "tags": ["경쟁적 평가", "성취", "문제 해결", "Young Turks 25"]
+                        }
+                    }
+                },                
+
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "#2c3e50", "fill": "#ecf0f1"},
+                    "date": {"year": 2024, "month": 3},
+                    "link": {"href": "images/certificates/Participation_Certificate.pdf", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{CodeRush}} Participation",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Devantra x Codeunia",
+                            "text": "Received a [[Certificate of Participation]] for the 6th Week of CodeRush, a collaborative initiative focusing on advancing [[practical coding]], [[problem-solving]], and [[continuous learning]].",
+                            "list": [],
+                            "tags": ["Competitive Programming", "Problem Solving", "Coding Initiative", "Devantra", "Codeunia"]
+                        },
+                        "es": {
+                            "title": "Participación en {{CodeRush}}",
+                            "province": "",
+                            "country": "Remoto",
+                            "institution": "Devantra x Codeunia",
+                            "text": "Recibió un [[Certificado de Participación]] por la Sexta Semana de CodeRush, una iniciativa colaborativa centrada en el avance de la [[codificación práctica]], la [[resolución de problemas]] y el [[aprendizaje continuo]].",
+                            "list": [],
+                            "tags": ["Programación Competitiva", "Resolución de Problemas", "Iniciativa de Codificación", "Devantra", "Codeunia"]
+                        },
+                        "fr": {
+                            "title": "Participation à {{CodeRush}}",
+                            "province": "",
+                            "country": "À distance",
+                            "institution": "Devantra x Codeunia",
+                            "text": "A reçu un [[Certificat de Participation]] pour la 6e Semaine de CodeRush, une initiative collaborative axée sur l'avancement du [[codage pratique]], de la [[résolution de problèmes]] et de l'[[apprentissage continu]].",
+                            "list": [],
+                            "tags": ["Programmation Compétitive", "Résolution de Problèmes", "Initiative de Codage", "Devantra", "Codeunia"]
+                        },
+                        "ko": {
+                            "title": "{{CodeRush}} 참가",
+                            "province": "",
+                            "country": "원격",
+                            "institution": "Devantra x Codeunia",
+                            "text": "제 6주차 CodeRush에 대한 [[참가 인증서]]를 받았으며, [[실용적인 코딩]], [[문제 해결]] 및 [[지속적인 학습]] 이니셔티브 발전에 중점을 둔 공동 이니셔티브입니다.",
+                            "list": [],
+                            "tags": ["경쟁적 프로그래밍", "문제 해결", "코딩 이니셔티브", "Devantra", "Codeunia"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "#3776AB", "fill": "#FFD43B"},
+                    "date": {"year": 2023, "month": 7},
+                    "link": {"href": "https://courses.cognitiveclass.ai/certificates/d8ad3d4694ab4ce799018f4f20785c43", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Python 101 for Data Science}}",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "IBM Cognitive Class",
+                            "text": "Completed a foundational course, [[Python 101 for Data Science]], covering essential programming concepts, data types, and the use of key libraries like [[NumPy]] and [[Pandas]] for practical data manipulation and analysis.",
+                            "list": [],
+                            "tags": ["Python", "Data Science", "NumPy", "Pandas", "IBM"]
+                        },
+                        "es": {
+                            "title": "{{Python 101 para Ciencia de Datos}}",
+                            "province": "",
+                            "country": "Remoto",
+                            "institution": "IBM Cognitive Class",
+                            "text": "Completó un curso fundamental, [[Python 101 para Ciencia de Datos]], que cubre conceptos esenciales de programación, tipos de datos y el uso de bibliotecas clave como [[NumPy]] y [[Pandas]] para la manipulación y el análisis práctico de datos.",
+                            "list": [],
+                            "tags": ["Python", "Ciencia de Datos", "NumPy", "Pandas", "IBM"]
+                        },
+                        "fr": {
+                            "title": "{{Python 101 pour la Science des Données}}",
+                            "province": "",
+                            "country": "À distance",
+                            "institution": "IBM Cognitive Class",
+                            "text": "A complété un cours fondamental, [[Python 101 pour la Science des Données]], couvrant les concepts de programmation essentiels, les types de données et l'utilisation de bibliothèques clés comme [[NumPy]] et [[Pandas]] pour la manipulation et l'analyse pratique des données.",
+                            "list": [],
+                            "tags": ["Python", "Science des Données", "NumPy", "Pandas", "IBM"]
+                        },
+                        "ko": {
+                            "title": "{{데이터 과학을 위한 Python 101}}",
+                            "province": "",
+                            "country": "원격",
+                            "institution": "IBM Cognitive Class",
+                            "text": "기초 과정인 [[데이터 과학을 위한 Python 101]]을 이수했으며, 필수 프로그래밍 개념, 데이터 유형, 그리고 실용적인 데이터 조작 및 분석을 위한 [[NumPy]] 및 [[Pandas]]와 같은 주요 라이브러리 사용법을 다루었습니다.",
+                            "list": [],
+                            "tags": ["Python", "데이터 과학", "NumPy", "Pandas", "IBM"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "#47A248", "fill": "#EEE"},
+                    "date": {"year": 2023, "month": 8},
+                    "link": {"href": "https://courses.cognitiveclass.ai/certificates/1389b28310fe4525b8199289fe0ccbcb", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{SQL and Relational Databases 101}}",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "IBM Cognitive Class",
+                            "text": "Completed a foundational certification course covering [[SQL and Relational Databases fundamentals]] and key concepts of data manipulation and management, as part of the IBM Cognitive Class program.",
+                            "list": [],
+                            "tags": ["SQL", "Relational Databases", "DBMS", "IBM", "Data Management"]
+                        },
+                        "es": {
+                            "title": "{{SQL y Bases de Datos Relacionales 101}}",
+                            "province": "",
+                            "country": "Remoto",
+                            "institution": "IBM Cognitive Class",
+                            "text": "Completó un curso de certificación fundamental que cubre los [[fundamentos de SQL y Bases de Datos Relacionales]] y conceptos clave de manipulación y gestión de datos, como parte del programa IBM Cognitive Class.",
+                            "list": [],
+                            "tags": ["SQL", "Bases de Datos Relacionales", "DBMS", "IBM", "Gestión de Datos"]
+                        },
+                        "fr": {
+                            "title": "{{SQL et Bases de Données Relationnelles 101}}",
+                            "province": "",
+                            "country": "À distance",
+                            "institution": "IBM Cognitive Class",
+                            "text": "A complété un cours de certification fondamental couvrant les [[fondamentaux de SQL et des Bases de Données Relationnelles]] ainsi que les concepts clés de manipulation et de gestion des données, dans le cadre du programme IBM Cognitive Class.",
+                            "list": [],
+                            "tags": ["SQL", "Bases de Données Relationnelles", "SGBD", "IBM", "Gestion des Données"]
+                        },
+                        "ko": {
+                            "title": "{{SQL 및 관계형 데이터베이스 101}}",
+                            "province": "",
+                            "country": "원격",
+                            "institution": "IBM Cognitive Class",
+                            "text": "[[SQL 및 관계형 데이터베이스]]의 기본 사항과 데이터 조작 및 관리의 주요 개념을 다루는 기초 인증 과정을 IBM Cognitive Class 프로그램의 일부로 이수했습니다.",
+                            "list": [],
+                            "tags": ["SQL", "관계형 데이터베이스", "DBMS", "IBM", "데이터 관리"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

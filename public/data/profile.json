@@ -1,0 +1,59 @@
+{
+    "name": "ADITYA KALE",
+    "profilePictureUrl": "images/content/ADITYA_KALE_2.png",
+    "resumePdfUrl": "images/content/ADITYA_KALE_RESUME_51.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+    "locales": {
+        "en": {
+            "localized_name": "ADITYA KALE",
+            "localized_name_stylized": "<img src='images/svg/logo.svg' style='width:27px; margin-top:-5px; margin-right:9px;'><strong>ADITYA {{KALE}}</strong>",
+            "status_message_available_for_freelance": "Available For Hire",
+            "roles": [
+                "Backend Developer",
+                "Frontend Developer",
+                "UX Designer",
+                "Software Engineer",
+                "Competitive Programmer"
+            ],
+            "name_pronunciation_ipa": "",
+            "name_pronunciation_audio_url": ""
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "roles": [
+                "Desarrollador Backend",
+                "Desarrollador Frontend",
+                "Diseñador UX",
+                "Ingeniero de software",
+                "Programador competitivo"
+            ]
+        },
+        "fr": {
+            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "roles": [
+                "Développeur Backend",
+                "Développeur Frontend",
+                "Designer UX",
+                "Ingénieur logiciel",
+                "Programmeur compétitif "
+            ]
+        },
+        "ko": {
+            "localized_name": "아디티아 칼레",
+            "localized_name_stylized": "<img src='images/svg/logo.svg' style='width:27px; margin-top:-5px; margin-right:9px;'><strong>아디티아 {{칼레}}</strong>",
+            "status_message_available_for_freelance": "프리랜스 가능합니다!",
+            "roles": [
+                "백엔드 개발자",
+                "프론트엔드 개발자",
+                "UX 디자이너",
+                "소프트웨어 엔지니어",
+                "경쟁력 있는 프로그래머"
+            ],
+            "name_pronunciation_ipa": "",
+            "name_pronunciation_audio_url": ""
+        }
+    }
+}

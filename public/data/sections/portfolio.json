@@ -1,0 +1,470 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Projects",
+                "title_short_nav": "Projects",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Projects}}"
+            },
+            "es": {
+                "title_short": "Proyectos",
+                "title_short_nav": "Proyectos",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Proyectos}}"
+            },
+            "fr": {
+                "title_short": "Projets",
+                "title_short_nav": "Projets",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Projets}}"
+            },
+            "ko": {
+                "title_short": "프로젝트",
+                "title_short_nav": "프로젝트",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{프로젝트}}입니다"
+            }
+        }
+
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                        "en": {
+                            "category_all": "All",
+                            "category_web": "Web",
+                            "category_language": "C++/C"
+                        },
+                        "es": {
+                            "category_all": "Todo",
+                            "category_web": "Web",
+                            "category_language": "C++"
+                        },
+                        "fr": {
+                            "category_all": "Tout",
+                            "category_web": "Web",
+                            "category_language": "C++"
+                        },
+                        "ko": {
+                            "category_all": "모두",
+                            "category_web": "웹",
+                            "category_language": "C++"
+                        }
+                    },
+
+            "settings": {
+                "categorize_by": ["category_web", "category_language"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/for_1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/Adityakale007/StudyNotion_Full_Stack_app", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
+                            {"href": "https://studynotion-frontend.vercel.app/", "tooltipString": "see_project", "faIcon": "fa-solid fa-globe"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/1_1.png",
+                            "images/pictures/1_2.png",
+                            "images/pictures/1_3.png",
+                            "images/pictures/1_4.png",
+                            "images/pictures/1_5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "StudyNotion - Full-Stack Ed-Tech Platform",
+                            "text": "A full-stack <b>ed-tech platform</b> built using the <b>MERN stack</b> (MongoDB, Express.js, React.js, Node.js). It enables students to learn through structured courses, instructors to teach and manage content, and supports <b>secure authentication, payments,</b> and <b>cloud-based media storage</b> for a modern learning experience.",
+                            "tags": ["MERN", "Full-Stack", "EdTech", "Node.js", "React"]
+                        },
+                        "es": {
+                            "title": "StudyNotion - Plataforma Ed-Tech Full-Stack",
+                            "text": "Una plataforma <b>ed-tech</b> full-stack construida con el <b>stack MERN</b> (MongoDB, Express.js, React.js, Node.js). Permite a los estudiantes aprender mediante cursos estructurados, a los instructores enseñar y gestionar contenido, e integra <b>autenticación segura, pagos</b> y <b>almacenamiento en la nube</b> para una experiencia de aprendizaje moderna.",
+                            "tags": ["MERN", "Full-Stack", "EdTech", "Node.js", "React"]
+                        },
+                        "fr": {
+                            "title": "StudyNotion - Plateforme Ed-Tech Full-Stack",
+                            "text": "Une plateforme <b>ed-tech</b> full-stack développée avec la <b>pile MERN</b> (MongoDB, Express.js, React.js, Node.js). Elle permet aux étudiants d’apprendre via des cours structurés, aux instructeurs de gérer le contenu, et prend en charge <b>l’authentification sécurisée</b>, les <b>paiements</b> et le <b>stockage cloud</b> pour une expérience d’apprentissage moderne.",
+                            "tags": ["MERN", "Full-Stack", "EdTech", "Node.js", "React"]
+                        },
+                        "ko": {
+                            "title": "StudyNotion - 풀스택 Ed-Tech 플랫폼",
+                            "text": "<b>MERN 스택</b>(MongoDB, Express.js, React.js, Node.js)을 사용하여 구축된 풀스택 <b>교육 기술 플랫폼</b>입니다. 학생들은 체계적인 과정을 통해 학습하고, 강사는 콘텐츠를 관리하며, <b>보안 인증</b>, <b>결제 시스템</b>, <b>클라우드 기반 미디어 저장소</b>를 통해 현대적인 학습 환경을 제공합니다.",
+                            "tags": ["MERN", "Full-Stack", "EdTech", "Node.js", "React"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/for_2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Adityakale007/Odin_Frontend",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://odin-frontend-psi.vercel.app/",
+                                "tooltipString": "see_project",
+                                "faIcon": "fa-solid fa-globe"
+                            }
+                        ],
+                        "screenshots": [
+                            "https://github.com/user-attachments/assets/f628c2b6-fe11-4e7d-9ac8-ba39488951d6",
+                            "https://github.com/user-attachments/assets/cdf0a36b-3af4-40f7-8141-d908a52be158",
+                            "https://github.com/user-attachments/assets/fca3e542-4855-446e-bb21-75c4ff904d7d"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Space Route Optimizer - Interactive Space Navigation Simulator",
+                            "text": "An interactive <b>space navigation simulator</b> that calculates the <b>shortest and safest path</b> from Earth to the Moon while avoiding <b>space debris</b> and <b>planetary radiation zones</b>. Built with <b>React.js</b> and <b>Framer Motion</b>, it features real-time radar visualization, dynamic pathfinding algorithms, and smooth animated transitions.",
+                            "tags": ["React", "Framer Motion", "Pathfinding", "Simulation", "Visualization"]
+                        },
+                        "es": {
+                            "title": "Space Route Optimizer - Simulador de Navegación Espacial Interactivo",
+                            "text": "Un <b>simulador de navegación espacial</b> interactivo que calcula la <b>ruta más corta y segura</b> desde la Tierra hasta la Luna, evitando <b>desechos espaciales</b> y <b>zonas de radiación planetaria</b>. Desarrollado con <b>React.js</b> y <b>Framer Motion</b>, incluye visualización tipo radar, algoritmos dinámicos de rutas y transiciones animadas suaves.",
+                            "tags": ["React", "Framer Motion", "Rutas", "Simulación", "Visualización"]
+                        },
+                        "fr": {
+                            "title": "Space Route Optimizer - Simulateur de Navigation Spatiale Interactif",
+                            "text": "Un <b>simulateur de navigation spatiale</b> interactif qui calcule le <b>trajet le plus court et le plus sûr</b> entre la Terre et la Lune, en évitant les <b>débris spatiaux</b> et les <b>zones de radiation planétaires</b>. Construit avec <b>React.js</b> et <b>Framer Motion</b>, il propose une visualisation radar, des algorithmes de calcul de route en temps réel et des animations fluides.",
+                            "tags": ["React", "Framer Motion", "Trajectoire", "Simulation", "Visualisation"]
+                        },
+                        "ko": {
+                            "title": "Space Route Optimizer - 인터랙티브 우주 항법 시뮬레이터",
+                            "text": "지구에서 달까지의 <b>가장 짧고 안전한 경로</b>를 계산하는 인터랙티브 <b>우주 항법 시뮬레이터</b>입니다. <b>우주 잔해</b>와 <b>방사선 지대</b>를 피하면서 <b>React.js</b>와 <b>Framer Motion</b>으로 구축된 실시간 레이더 시각화, 동적 경로 탐색 알고리즘, 부드러운 애니메이션 전환 기능을 제공합니다.",
+                            "tags": ["React", "Framer Motion", "경로 탐색", "시뮬레이션", "시각화"]
+                        }
+                    }
+                },                
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/for_3.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Adityakale007/PasteApp",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://paste-app-omega-ten.vercel.app/",
+                                "tooltipString": "see_project",
+                                "faIcon": "fa-solid fa-globe"
+                            }
+                        ],
+                        "screenshots": [
+                            "https://github.com/user-attachments/assets/4f61697c-b360-4f28-a81c-cba4a44aa580",
+                            "https://github.com/user-attachments/assets/5fa424f8-da56-45b3-a9b8-384383c2eece"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PasteVault - Notes & Code Snippet Manager",
+                            "text": "A lightweight <b>Notes & Code Snippet Manager</b> built with <b>ReactJS</b>. PasteVault allows creating, editing, viewing, and copying notes or code snippets, stored persistently in your browser using LocalStorage. No backend or login required.",
+                            "tags": ["React", "LocalStorage", "Frontend", "SPA", "TailwindCSS"]
+                        },
+                        "es": {
+                            "title": "PasteVault - Gestor de Notas y Fragmentos de Código",
+                            "text": "Un <b>gestor ligero de notas y fragmentos de código</b> construido con <b>ReactJS</b>. PasteVault permite crear, editar, ver y copiar notas o fragmentos de código, guardados de forma persistente en el navegador mediante LocalStorage. No se requiere backend ni inicio de sesión.",
+                            "tags": ["React", "LocalStorage", "Frontend", "SPA", "TailwindCSS"]
+                        },
+                        "fr": {
+                            "title": "PasteVault - Gestionnaire de Notes et Snippets",
+                            "text": "Un <b>gestionnaire léger de notes et de snippets de code</b> développé avec <b>ReactJS</b>. PasteVault permet de créer, éditer, consulter et copier des notes ou snippets, stockés de façon persistante dans le navigateur via LocalStorage. Pas de backend ni de connexion requis.",
+                            "tags": ["React", "LocalStorage", "Frontend", "SPA", "TailwindCSS"]
+                        },
+                        "ko": {
+                            "title": "PasteVault - 노트 & 코드 스니펫 관리자",
+                            "text": "ReactJS로 구축된 가벼운 <b>노트 및 코드 스니펫 관리자</b>입니다. PasteVault는 브라우저의 LocalStorage를 사용하여 노트 및 코드 스니펫을 생성, 편집, 보기 및 복사할 수 있습니다. 백엔드나 로그인 불필요.",
+                            "tags": ["React", "LocalStorage", "Frontend", "SPA", "TailwindCSS"]
+                        }
+                    }
+                },                
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/for_4.jpeg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Adityakale007/LeetMetrix",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://leetcode-metrixapp.vercel.app/",
+                                "tooltipString": "see_project",
+                                "faIcon": "fa-solid fa-globe"
+                            }
+                        ],
+                        "screenshots": [
+                            "https://github.com/user-attachments/assets/18396508-a538-4932-86a2-ae29001cd010",
+                            "https://github.com/user-attachments/assets/2c01360b-c75b-4064-ab45-1adfda8899c1"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "LeetMetric - LeetCode Profile Fetcher",
+                            "text": "A sleek web app that fetches and visualizes <b>LeetCode user profile stats</b> in real time. LeetMetric displays problem-solving progress, difficulty breakdowns, acceptance rate, global ranking, contribution points, and reputation. Built with HTML, CSS, and JavaScript for a fast, responsive, client-side experience.",
+                            "tags": ["JavaScript", "HTML", "CSS", "API", "LeetCode"]
+                        },
+                        "es": {
+                            "title": "LeetMetric - Visualizador de Perfil de LeetCode",
+                            "text": "Una aplicación web elegante que obtiene y visualiza en tiempo real las <b>estadísticas de perfil de usuario de LeetCode</b>. LeetMetric muestra progreso en la resolución de problemas, desglose por dificultad, tasa de aceptación, ranking global, puntos de contribución y reputación. Construido con HTML, CSS y JavaScript para una experiencia rápida y responsiva del lado del cliente.",
+                            "tags": ["JavaScript", "HTML", "CSS", "API", "LeetCode"]
+                        },
+                        "fr": {
+                            "title": "LeetMetric - Visualiseur de Profil LeetCode",
+                            "text": "Une application web élégante qui récupère et visualise en temps réel les <b>statistiques de profil utilisateur LeetCode</b>. LeetMetric affiche la progression des problèmes, la répartition par difficulté, le taux d'acceptation, le classement mondial, les points de contribution et la réputation. Développé avec HTML, CSS et JavaScript pour une expérience client rapide et réactive.",
+                            "tags": ["JavaScript", "HTML", "CSS", "API", "LeetCode"]
+                        },
+                        "ko": {
+                            "title": "LeetMetric - LeetCode 프로필 뷰어",
+                            "text": "실시간으로 <b>LeetCode 사용자 프로필 통계</b>를 가져오고 시각화하는 세련된 웹 앱입니다. LeetMetric은 문제 해결 진행, 난이도 분류, 수락률, 글로벌 랭킹, 기여 점수 및 평판을 보여줍니다. HTML, CSS, JavaScript로 구축되어 빠르고 반응성 높은 클라이언트 경험을 제공합니다.",
+                            "tags": ["JavaScript", "HTML", "CSS", "API", "LeetCode"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_language",
+                    "img": "images/pictures/for_5.png",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Adityakale007/SUDOKU-SOLVER",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Sudoku Solver (C++)",
+                            "text": "A console-based <b>Sudoku Solver</b> implemented in <b>C++</b> using the backtracking algorithm. Accepts 9×9 Sudoku input, validates rows, columns, and 3×3 sub-grids, solves the puzzle if possible, and displays the completed board or notifies if no solution exists.",
+                            "tags": ["C++", "Backtracking", "Console App", "Algorithm"]
+                        },
+                        "es": {
+                            "title": "Solucionador de Sudoku (C++)",
+                            "text": "Un <b>solucionador de Sudoku</b> basado en consola implementado en <b>C++</b> usando el algoritmo de backtracking. Acepta entrada de Sudoku 9×9, valida filas, columnas y sub-cuadrículas 3×3, resuelve el rompecabezas si es posible y muestra el tablero completado o notifica si no hay solución.",
+                            "tags": ["C++", "Backtracking", "Consola", "Algoritmo"]
+                        },
+                        "fr": {
+                            "title": "Solveur de Sudoku (C++)",
+                            "text": "Un <b>solveur de Sudoku</b> en console implémenté en <b>C++</b> utilisant l'algorithme de backtracking. Accepte une grille 9×9, valide les lignes, colonnes et sous-grilles 3×3, résout le puzzle si possible et affiche la grille complète ou indique s'il n'y a pas de solution.",
+                            "tags": ["C++", "Backtracking", "Console", "Algorithme"]
+                        },
+                        "ko": {
+                            "title": "스도쿠 솔버 (C++)",
+                            "text": "<b>C++</b>로 구현된 콘솔 기반 <b>스도쿠 솔버</b>입니다. 9×9 스도쿠 입력을 받아 행, 열, 3×3 서브그리드를 검증하고 가능한 경우 퍼즐을 해결하며, 완료된 보드를 표시하거나 해결 불가 시 알립니다.",
+                            "tags": ["C++", "Backtracking", "콘솔 앱", "알고리즘"]
+                        }
+                    }
+                },                
+                {
+                    "id": 6,
+                    "categoryId": "category_language",
+                    "img": "images/pictures/for_6.png",
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Adityakale007/PROJECT_2-TIC_TAC_TOE-",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tic-Tac-Toe (C++)",
+                            "text": "A console-based <b>Tic-Tac-Toe game</b> implemented in <b>C++</b>. Two players take turns marking spaces in a 3×3 grid. The game ends when a player wins or the grid is full, resulting in a draw. Uses standard I/O, arrays, loops, and conditionals to manage gameplay and win detection.",
+                            "tags": ["C++", "Console Game", "Arrays", "Loops", "Algorithms"]
+                        },
+                        "es": {
+                            "title": "Tres en Raya (C++)",
+                            "text": "Un <b>juego de Tres en Raya</b> basado en consola implementado en <b>C++</b>. Dos jugadores se turnan para marcar espacios en una cuadrícula 3×3. El juego termina cuando un jugador gana o la cuadrícula se llena, resultando en un empate. Utiliza E/S estándar, arreglos, bucles y condicionales para gestionar la jugabilidad y la detección de ganadores.",
+                            "tags": ["C++", "Juego de Consola", "Arreglos", "Bucles", "Algoritmos"]
+                        },
+                        "fr": {
+                            "title": "Morpion (C++)",
+                            "text": "Un <b>jeu de Morpion</b> en console implémenté en <b>C++</b>. Deux joueurs se relaient pour marquer des cases dans une grille 3×3. Le jeu se termine lorsqu'un joueur gagne ou que la grille est pleine, aboutissant à un match nul. Utilise l'entrée/sortie standard, les tableaux, les boucles et les conditions pour gérer le jeu et la détection des victoires.",
+                            "tags": ["C++", "Jeu Console", "Tableaux", "Boucles", "Algorithmes"]
+                        },
+                        "ko": {
+                            "title": "틱택토 (C++)",
+                            "text": "<b>C++</b>로 구현된 콘솔 기반 <b>틱택토 게임</b>입니다. 두 플레이어가 3×3 격자에 번갈아 표시를 하며 진행됩니다. 플레이어가 승리하거나 격자가 가득 차면 무승부로 종료됩니다. 표준 입출력, 배열, 반복문, 조건문을 사용하여 게임 진행과 승리 조건을 처리합니다.",
+                            "tags": ["C++", "콘솔 게임", "배열", "반복문", "알고리즘"]
+                        }
+                    }
+                },                
+                {
+                    "id": 7,
+                    "categoryId": "category_language",
+                    "img": "",
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Adityakale007/Multi_Threaded_Proxy_Web_Server",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Multi-Threaded Proxy Server (C)",
+                            "text": "A <b>multi-threaded proxy server</b> implemented in <b>C</b> with optional caching using the LRU algorithm. Handles multiple client requests concurrently using <b>semaphores, threads, and locks</b>. Supports HTTP parsing, speeds up server responses, restricts access, and can be extended for advanced request handling.",
+                            "tags": ["C", "Proxy Server", "Multi-threading", "Semaphore", "Cache"]
+                        },
+                        "es": {
+                            "title": "Servidor Proxy Multi-Hilo (C)",
+                            "text": "Un <b>servidor proxy multi-hilo</b> implementado en <b>C</b> con almacenamiento en caché opcional usando el algoritmo LRU. Gestiona múltiples solicitudes de clientes concurrentemente mediante <b>semaforos, hilos y bloqueos</b>. Soporta parsing HTTP, acelera las respuestas del servidor, restringe el acceso y puede ampliarse para manejo avanzado de solicitudes.",
+                            "tags": ["C", "Servidor Proxy", "Multihilo", "Semáforo", "Caché"]
+                        },
+                        "fr": {
+                            "title": "Serveur Proxy Multi-Thread (C)",
+                            "text": "Un <b>serveur proxy multi-thread</b> implémenté en <b>C</b> avec mise en cache optionnelle utilisant l'algorithme LRU. Gère plusieurs requêtes clients simultanément avec <b>sémaphores, threads et verrous</b>. Supporte le parsing HTTP, accélère les réponses serveur, restreint l'accès et peut être étendu pour le traitement avancé des requêtes.",
+                            "tags": ["C", "Serveur Proxy", "Multi-thread", "Sémaphore", "Cache"]
+                        },
+                        "ko": {
+                            "title": "멀티스레드 프록시 서버 (C)",
+                            "text": "<b>C</b>로 구현된 <b>멀티스레드 프록시 서버</b>입니다. 선택적 LRU 캐시를 지원하며, <b>세마포어, 스레드, 락</b>을 사용하여 다중 클라이언트 요청을 동시 처리합니다. HTTP 파싱을 지원하고, 서버 응답을 가속화하며, 접근 제한 기능과 고급 요청 처리를 위한 확장 가능성을 제공합니다.",
+                            "tags": ["C", "프록시 서버", "멀티스레딩", "세마포어", "캐시"]
+                        }
+                    }
+                },                
+                {
+                    "id": 8,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/for_8.png",
+                    "faIcon": "fa-solid fa-credit-card",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Adityakale007/PayFlow",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PayFlow – Digital Payment Platform Web Brochure",
+                            "text": "A frontend web brochure for <b>PayFlow</b>, a <b>digital payment platform</b>, built with <b>HTML, CSS, and TailwindCSS</b>. Showcases payment solutions, business banking features, and financial tools through a responsive, professional design for seamless user experience.",
+                            "tags": ["HTML", "CSS", "TailwindCSS", "Frontend", "Responsive Design"]
+                        },
+                        "es": {
+                            "title": "PayFlow – Folleto Web de Plataforma de Pagos Digitales",
+                            "text": "Un folleto web para <b>PayFlow</b>, una <b>plataforma de pagos digitales</b>, construido con <b>HTML, CSS y TailwindCSS</b>. Muestra soluciones de pago, características bancarias y herramientas financieras mediante un diseño profesional y responsivo para una experiencia de usuario fluida.",
+                            "tags": ["HTML", "CSS", "TailwindCSS", "Frontend", "Diseño Responsivo"]
+                        },
+                        "fr": {
+                            "title": "PayFlow – Brochure Web pour Plateforme de Paiement Numérique",
+                            "text": "Une brochure web pour <b>PayFlow</b>, une <b>plateforme de paiement numérique</b>, construite avec <b>HTML, CSS et TailwindCSS</b>. Présente les solutions de paiement, les services bancaires et les outils financiers grâce à un design professionnel et responsive pour une expérience utilisateur optimale.",
+                            "tags": ["HTML", "CSS", "TailwindCSS", "Frontend", "Design Responsive"]
+                        },
+                        "ko": {
+                            "title": "PayFlow – 디지털 결제 플랫폼 웹 브로셔",
+                            "text": "<b>PayFlow</b>의 <b>디지털 결제 플랫폼</b> 웹 브로셔로 <b>HTML, CSS, TailwindCSS</b>로 구축되었습니다. 결제 솔루션, 비즈니스 뱅킹 기능 및 금융 도구를 전문적이고 반응형 디자인으로 보여주며 원활한 사용자 경험을 제공합니다.",
+                            "tags": ["HTML", "CSS", "TailwindCSS", "프론트엔드", "반응형 디자인"]
+                        }
+                    }
+                },                
+                {
+                    "id": 9,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/for_9_2.png",
+                    "faIcon": "fa-solid fa-dumbbell",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Adityakale007/X-Factor",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://x-factor-omega.vercel.app/",
+                                "tooltipString": "see_project",
+                                "faIcon": "fa-solid fa-globe"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "X-FACTOR GYM – Web Brochure",
+                            "text": "A frontend web brochure for <b>X-FACTOR GYM</b>, built with <b>HTML, CSS, and TailwindCSS</b>. Showcases gym services, facilities, membership plans, and contact details through a responsive, professional design for smooth user experience.",
+                            "tags": ["HTML", "CSS", "TailwindCSS", "Frontend", "Responsive Design"]
+                        },
+                        "es": {
+                            "title": "X-FACTOR GYM – Folleto Web",
+                            "text": "Un folleto web para <b>X-FACTOR GYM</b>, construido con <b>HTML, CSS y TailwindCSS</b>. Muestra los servicios del gimnasio, instalaciones, planes de membresía y datos de contacto mediante un diseño profesional y responsivo para una experiencia de usuario fluida.",
+                            "tags": ["HTML", "CSS", "TailwindCSS", "Frontend", "Diseño Responsivo"]
+                        },
+                        "fr": {
+                            "title": "X-FACTOR GYM – Brochure Web",
+                            "text": "Une brochure web pour <b>X-FACTOR GYM</b>, construite avec <b>HTML, CSS et TailwindCSS</b>. Présente les services du gymnase, les installations, les plans d'adhésion et les coordonnées grâce à un design professionnel et responsive pour une expérience utilisateur optimale.",
+                            "tags": ["HTML", "CSS", "TailwindCSS", "Frontend", "Design Responsive"]
+                        },
+                        "ko": {
+                            "title": "X-FACTOR GYM – 웹 브로셔",
+                            "text": "<b>X-FACTOR GYM</b>를 위한 웹 브로셔로 <b>HTML, CSS, TailwindCSS</b>로 구축되었습니다. 체육관 서비스, 시설, 멤버십 플랜 및 연락처 정보를 전문적이고 반응형 디자인으로 제공하여 원활한 사용자 경험을 보장합니다.",
+                            "tags": ["HTML", "CSS", "TailwindCSS", "프론트엔드", "반응형 디자인"]
+                        }
+                    }
+                }                
+            ]
+        }
+    ]
+}
