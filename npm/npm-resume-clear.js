@@ -1,5 +1,5 @@
 /**
- * @author Aditya-Kale
+ * @author Aditya Kale
  * @description Use this script to wipe all existing resume data and start fresh with a blank resume.
  *
  * @usage

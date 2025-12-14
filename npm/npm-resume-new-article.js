@@ -1,5 +1,5 @@
 /**
- * @author Aditya-Kale
+ * @author Aditya Kale
  * @description Use this script to create new articles.
  *
  * @usage
