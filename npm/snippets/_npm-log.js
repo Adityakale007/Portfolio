@@ -1,5 +1,5 @@
 /**
- * @author Aditya Kale
+ * @author Aditya-Kale
  * @description Handy utilities to present console messages within your npm scripts.
  */
 export const useNpmLogger = () => {
